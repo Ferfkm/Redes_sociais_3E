@@ -3,7 +3,7 @@
 :root {
     --cor-principal:#5f3aed;
     --cor-secudaria: #529635;
-    --cor-texto: #5741d3;
+    --cor-texto: #41bfd3;
     --cor-de-fundo: #986352;
     --font: "Nunito Sans", sans-serif;
 }
@@ -27,4 +27,14 @@ nav{
   display: flex;
   justify-content: center;
   font-weight: 400;
+}
+nav a {
+  text-decoration: none;
+  color: var(--cor-texto);
+  margin: 0 2rem 1rem 0;
+  font-size: 1.2rem;
+}
+nav a:hover{
+  text-decoration: underline;
+  transform: scale(0.90);
 }
