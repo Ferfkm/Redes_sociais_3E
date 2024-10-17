@@ -39,6 +39,19 @@ nav a:hover{
   transform: scale(0.90);
   transition: transform 0.1s;
 }
+.graficos-container {
+  margin: 5rem;
+ }
+ .graficos-container_texto {
+  font-size: 1.3rem;
+  text-align: center;
+  padding: 2rem;
+  border: var(--segundaria-color) solid 2px;
+}
+span {
+  font-weight: bold;
+  color: var(--secondary-color);
+ }
 footer{
   display: flex;
   align-items: center;
